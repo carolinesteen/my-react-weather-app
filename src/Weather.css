@@ -20,7 +20,7 @@
 .Weather .search-input {
   background: #f9f7fe;
   border: none;
-  
+
   display: inline-block;
   border-radius: 6px;
   color: rgba(39, 33, 66, 0.4);
@@ -33,7 +33,6 @@
   font-size: 16px;
   border: 1px solid #885df1;
   width: 150px;
-  
 }
 
 .Weather .search-input::placeholder {
@@ -70,21 +69,24 @@
   font-weight: normal;
 }
 
-.Weather .temperature {
+.WeatherTemperature .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
   margin-left: 5px;
   margin-left: 10px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1;
 }
 
-.Weather .unit {
+.WeatherTemperature .unit {
   color: rgb(33, 33, 33);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1;
-
-
+  position: relative;
+  line-height: 1;
+  top: -15px;
 }
+
+
