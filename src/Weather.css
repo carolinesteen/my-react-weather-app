@@ -70,13 +70,11 @@
 }
 
 .WeatherTemperature .temperature {
-  font-weight: bold;
+  font-weight: 400;
   color: rgb(33, 33, 33);
   margin-left: 5px;
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 1;
+  font-size: 50px;
+  line-height: 64px;
 }
 
 .WeatherTemperature .unit {
@@ -85,5 +83,9 @@
   line-height: 1;
   position: relative;
   line-height: 1;
-  top: -15px;
+  top: -25px;
+}
+
+.WeatherTemperature canvas {
+  margin: 10px auto;
 }

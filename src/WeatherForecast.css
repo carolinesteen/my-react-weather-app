@@ -10,7 +10,11 @@
     width: 70px;
 }
 
-.temp-min {
+.WeatherForecast-temperature-min {
     opacity: 0.8;
+}
+
+.WeatherForecast-temperature-max {
+    color: #f65282;
 }
 
